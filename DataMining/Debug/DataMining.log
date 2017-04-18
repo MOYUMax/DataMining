@@ -1,0 +1,45 @@
+﻿生成启动时间为 2017/4/17 21:19:17。
+     1>项目“C:\Users\Administrator\documents\visual studio 2013\Projects\DataMining\DataMining\DataMining.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\DataMining.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Apriori2.cpp
+         Apriori2.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(1015): warning C4503: “std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_nohint”: 超出修饰名的长度，名称被截断
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=map_s
+         ,            _Pr=std::less<int>
+         ,            _Alloc=std::allocator<std::pair<const int,map_s>>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(1015): warning C4503: “std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint”: 超出修饰名的长度，名称被截断
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=map_s
+         ,            _Pr=std::less<int>
+         ,            _Alloc=std::allocator<std::pair<const int,map_s>>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(1015): warning C4503: “std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_at”: 超出修饰名的长度，名称被截断
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=map_s
+         ,            _Pr=std::less<int>
+         ,            _Alloc=std::allocator<std::pair<const int,map_s>>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(1015): warning C4503: “std::allocator_traits<_Alloc>::construct”: 超出修饰名的长度，名称被截断
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Tree_node<std::pair<const int,map_s>,void *>>
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2013\Projects\DataMining\Debug\DataMining.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\documents\visual studio 2013\Projects\DataMining\Debug\DataMining.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\documents\visual studio 2013\Projects\DataMining\Debug\DataMining.lib" /MACHINE:X86 Debug\Apriori.obj
+         Debug\Apriori2.obj
+         Debug\DataMining.obj
+         Debug\stdafx.obj
+         DataMining.vcxproj -> C:\Users\Administrator\documents\visual studio 2013\Projects\DataMining\Debug\DataMining.exe
+     1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2013\Projects\DataMining\DataMining\DataMining.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.07
